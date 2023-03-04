@@ -3,18 +3,21 @@
  * main - Entry poiny
  * Discription: 'print all lettes except a and e'
  * Return: 0
- * */
+*/
 int main(void)
 {
-	int n 97;
+	int n = 97;
 
 	while (n <= 122)
 	{
-		if (n == 101 || n== 113)
-		putcher(n);
+		if (n == 101 || n == 113)
+		{
+			n++;
+			continue;
+		}
+		putchar(n);
 		n++;
-		continue;
 	}
-	putcher(`\n');
+	putchar('\n');
 	return (0);
 }
