@@ -5,7 +5,7 @@
  * main - Entry point
  * Description: 'print wheather n is negatve or positive'
  * Return: Always 0
- * */
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
