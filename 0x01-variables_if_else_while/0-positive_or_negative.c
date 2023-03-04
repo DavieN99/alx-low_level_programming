@@ -1,9 +1,9 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'print wheathern is negatve or positive'
+ * Description: 'print wheather n is negatve or positive'
  * Return: Always 0
  * */
 /* betty style doc for function main goes there */
@@ -26,4 +26,4 @@ int main(void)
 						printf("%d is negative\n", n);
 					}
 					return (0);
-					
+}
