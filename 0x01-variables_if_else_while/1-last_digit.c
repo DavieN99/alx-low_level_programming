@@ -8,7 +8,7 @@
  */
 
 /* betty style doc for function main goes there */
-int main (void)
+int main(void)
 {
 		int n;
 		int ld;
@@ -20,8 +20,8 @@ int main (void)
 				{
 					printf("Last digit of %d is %d and is greater 5", n, ld);
 				}
-				else if (ld == 0)
-				{
+					else if (ld == 0)
+					{
 				        printf("Last digit of %d is %d is 0", n, ld);
 				}
 				else
